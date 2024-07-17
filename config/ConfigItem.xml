@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="ConfigItem" extends="Group">
+    <interface>
+        <field id="itemContent" type="node" onChange="itemContentChanged" />
+        <field id="itemHasFocus" type="boolean" onChange="setColors" />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/components/config/ConfigItem.brs" />
+    <script type="text/brightscript" uri="pkg:/source/roku_modules/rokucommunity_bslib/bslib.brs" />
+    <children>
+        <LayoutGroup layoutDirection="horiz">
+            <Label id="label" />
+            <TextEditBox id="value" />
+        </LayoutGroup>
+    </children>
+</component>

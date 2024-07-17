@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="ConfigData" extends="ContentNode">
+    <interface>
+        <field id="label" type="string" />
+        <field id="value" type="string" />
+        <field id="type" type="string" />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/components/config/ConfigData.brs" />
+    <script type="text/brightscript" uri="pkg:/source/roku_modules/rokucommunity_bslib/bslib.brs" />
+</component>
