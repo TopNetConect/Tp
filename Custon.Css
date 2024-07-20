@@ -1,0 +1,31 @@
+/* Estilo de fundo do painel */
+body {
+    background-color: #141414; /* Fundo escuro semelhante ao Prime Video */
+}
+
+/* Estilo das seções de destaque */
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo dos itens em destaque */
+.card-item {
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+/* Estilo dos títulos */
+.card-title {
+    font-size: 24px;
+    color: #ffffff; /* Título em branco para contraste */
+}
+
+/* Ajustes na largura e layout dos itens */
+.card-item img {
+    width: 100%;
+    height: auto;
+}
+
